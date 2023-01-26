@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* TODO: Finish base styles for blog template */
+    .blog-post h1 {
+            @apply text-2xl;
+          }
+    .blog-post p {
+            @apply text-sm mt-4;
+          }
+
+    }
